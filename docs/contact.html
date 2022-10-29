@@ -1,30 +1,71 @@
+<!DOCTYPE html>
 <html>
- <body>
-    <script>
-      window.chatwootSettings = {
-        locale: 'zh-CN',
-        type: 'expanded_bubble',
-        launcherTitle: '線上聯絡我',
-        showPopoutButton: true
-      };
 
-      (function(d, t) {
-        var BASE_URL = 'https://livehelp.ott.pm/';
-        var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-        g.src = BASE_URL + '/packs/js/sdk.js';
-        g.defer = true;
-        g.async = true;
-        s.parentNode.insertBefore(g, s);
-        g.onload = function() {
-          window.chatwootSDK.run({
-            websiteToken: 'X7uvaUZX9vS3wo4WMr5jriBd',
-            baseUrl: BASE_URL
-          });
-        };
-      })(document, 'script');
-      window.addEventListener('chatwoot:ready', function() {
-        window.$chatwoot.toggle('open'); // To open widget
-      });
-    </script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>線上聯絡我</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="referrer" content="no-referrer">
+  <link rel="stylesheet" href="https://files.3y1.xyz/static/mobile/sm.min.css">
+</head>
+
+<body>
+  <div class="page-group">
+    <div class="page page-current">
+      <header class="bar bar-nav">
+        <a class="icon icon-me pull-left open-panel"></a>
+        <h1 class="title">線上聯絡我</h1>
+      </header>
+      <div class="content">
+        <div class="content-padded">
+          <p>Note:Please use the browser to open, and if you use IM tools such as WeChat, please select the browser to
+            open.</p>
+          <p>注意:請使用瀏覽器掃描二維碼打開, 如果使用諸如微信之類的IM工具掃描二維碼後, 請進一步選擇瀏覽器打開</p>
+          <div class="row">
+            <div class="col-20"></div>
+            <div class="col-80">
+              <a href="/contact.html" class="external" data-no-cache="true" target="_blank">
+                <img src="/images/qr.png" alt="" width="50%">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type='text/javascript' src='https://files.3y1.xyz/static/mobile/js/zepto.min.js' charset='utf-8'></script>
+  <script type='text/javascript' src='https://files.3y1.xyz/static/js/sm.min.js' charset='utf-8'></script>
+
+  <script>
+    window.chatwootSettings = {
+      locale: 'zh-CN',
+      type: 'expanded_bubble',
+      launcherTitle: '線上聯絡我',
+      showPopoutButton: true
+    };
+
+    (function (d, t) {
+      var BASE_URL = 'https://livehelp.ott.pm/';
+      var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      g.src = BASE_URL + '/packs/js/sdk.js';
+      g.defer = true;
+      g.async = true;
+      s.parentNode.insertBefore(g, s);
+      g.onload = function () {
+        window.chatwootSDK.run({
+          websiteToken: 'X7uvaUZX9vS3wo4WMr5jriBd',
+          baseUrl: BASE_URL
+        });
+      };
+    })(document, 'script');
+    window.addEventListener('chatwoot:ready', function () {
+      window.$chatwoot.toggle('open'); // To open widget
+    });
+  </script>
+</body>
+
 </html>
