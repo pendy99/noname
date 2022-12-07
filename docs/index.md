@@ -1,3 +1,11 @@
+
+# Download App(下載地址)
+https://epg.pm/app_download.html
+
+# Some collected prepaid cards, after use, you can watch paid content for free(一些收集到的預付費卡, 使用後可以免費觀看付費內容)
+https://raw.githubusercontent.com/pendy99/noname/main/docs/iptv_prepaid_card.txt
+
+
 # CloudTV, your home media center
 
 CloudTV is the most advanced cross-platform home media center application, it virtualizes the STB (Set-Top-Box) function and can replace the conventional cable TV.
@@ -232,6 +240,10 @@ So, you never have to worry about CloudTV disappearing one day, compared to some
 
 Stable and secure, thats the most important thing, isnt it??
 
+# contact us now
+https://pendy99.github.io/noname/contact.html
+
+
 # CloudTV(雲電視), 您的家庭媒體中心
 
 CloudTV是一款目前最先進的跨平臺家庭媒體中心應用, 它虛擬化了STB(Set-Top-Box)功能, 可替代常規的有線電視.
@@ -458,3 +470,5 @@ CloudTV已經運營10年了, 算是全球最古老的IPTV/OTT應用了.
 
 穩定且安全, 這是最重要的, 不是麼??
 
+# 立刻聯絡我們
+https://pendy99.github.io/noname/contact.html
